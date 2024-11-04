@@ -22,7 +22,7 @@
             <?php  
               if(isset($_POST['submit']))
               {
-                echo "1".$_POST['cc1'];
+                header("Location: http://localhost:5500/EDU Advising Help/admin_home.php");
               }
             ?>
        </form>
