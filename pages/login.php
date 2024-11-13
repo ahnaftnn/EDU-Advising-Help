@@ -13,7 +13,7 @@
     </form>
      <?php
        if(isset($_POST['submit']) && $_POST['username']=="admin" && $_POST['password']=="admin" ) {
-        header("Location: http://localhost:5500/EDU Advising Help/pages/admin_home.php");
+        header("Location: http://localhost:8080/EDU Advising Help/pages/admin_home.php");
        }
      ?>
 
