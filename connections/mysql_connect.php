@@ -6,6 +6,6 @@
     $res = mysqli_query($conn, $sql) or die(mysqli_error());
     
     header("Location: http://localhost:8080/EDU Advising Help/pages/admin_home.php");
-    header("Location: http://localhost:8080/EDU Advising Help/pages/course_faculty.php");
+    
     
 ?>

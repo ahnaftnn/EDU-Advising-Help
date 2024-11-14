@@ -33,6 +33,7 @@
             Faculty='$name'
             ";
             include('../connections/mysql_connect.php');  
+            header("Location: http://localhost:8080/EDU Advising Help/pages/course_faculty.php");
         }
         ?>
 </table>

@@ -22,7 +22,7 @@
             <?php  
               if(isset($_POST['submit']))
               {
-                header("Location: http://localhost:8080/EDU Advising Help/admin_home.php");
+                header("Location: http://localhost:8080/EDU Advising Help/pages/final_routine.php");
               }
             ?>
        </form>
