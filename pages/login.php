@@ -16,7 +16,7 @@
         header("Location: http://localhost:8080/EDU Advising Help/pages/admin_home.php");
        }
      ?>
-
+     <?php include('../connections/footer.php'); ?>
    </body>
 
 </html>
