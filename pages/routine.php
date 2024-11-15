@@ -7,7 +7,7 @@
        <?php include('../connections/header.php'); ?>
         
 
-       <form method="POST">
+       <form method="POST" action="final_routine.php">
             <br>
             <strong>Course Code</strong><br>
             <input type="text" name="cc1"><br>
@@ -19,12 +19,7 @@
             <input type="text" name="cc7"><br>
             <input type="submit" name="submit">
 
-            <?php  
-              if(isset($_POST['submit']))
-              {
-                header("Location: http://localhost:8080/EDU Advising Help/pages/final_routine.php");
-              }
-            ?>
+            
        </form>
 
 
