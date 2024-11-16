@@ -1,7 +1,7 @@
 <html>
     <div class="header">
         <div class="EDU">
-            <img src="../image/logo2.svg"     height="54.36px" width="83px"/>
+            <img src="../image/logo3.png" height="40px" width="40px"/>
         </div>
         
         <div class="info">

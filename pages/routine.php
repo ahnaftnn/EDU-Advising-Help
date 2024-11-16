@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>EDU Routine</title>
+        <link rel="stylesheet" href="../style.css"/>
     </head>
     
    <body>
