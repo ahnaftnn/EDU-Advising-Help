@@ -1,6 +1,16 @@
 <html>
     <head>
     <link rel="stylesheet" href="../style.css"/>
+    <style>
+      table,tr,td,th{
+        border-collapse: collapse;
+        margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+        margin-top: 10%;
+      }
+    </style>
+
     </head>
 
   <body>
@@ -17,20 +27,20 @@
 
   <div class="routine">
      
-    <table>
+    <table border=1 class="text-center">
     <tr> 
     <td>     </td>
-    <td>8:30 AM </td>
-    <td>9:30 AM </td>
-    <td>10:00 AM </td>
-    <td>11:30 AM </td>
-    <td>1:30 AM </td>
-    <td>3:30 AM </td>
-    <td>4:30 AM </td>
+    <th>8:30 AM </th>
+    <th>9:30 AM </th>
+    <th>10:00 AM </th>
+    <th>11:30 AM </th>
+    <th>1:30 AM </th>
+    <th>3:30 AM </th>
+    <th>4:30 AM </th>
     </tr>
 
     <tr> 
-    <td>Sunday</td>
+    <th>Sunday</th>
     <td>  <?php $sql= "SELECT course,faculty,room FROM routine 
       where day like 'Sunday' AND
       time like '8:30' AND

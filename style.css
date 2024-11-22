@@ -36,6 +36,7 @@
     float: left;
   }
   .footer{
+    margin-top: 50%;
     display: flex;
     justify-content: center;
   }
