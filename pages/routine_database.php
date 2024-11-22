@@ -55,8 +55,8 @@
             faculty='$faculty'
             ";
             include('../connections/mysql_connect.php'); 
-            header("Location: http://localhost:8080/EDU Advising Help/pages/admin_home.php");
-            header("Location: http://localhost:8080/EDU Advising Help/pages/routine_database.php"); 
+            header("Location: admin_home.php");
+            header("Location: routine_database.php"); 
         }
         ?>
     

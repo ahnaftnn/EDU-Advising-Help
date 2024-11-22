@@ -2,7 +2,7 @@
     <head>
     <link rel="stylesheet" href="../style.css"/>
     </head>
-    
+
   <body>
   <?php include('../connections/header.php'); ?>
   <?php
@@ -16,7 +16,7 @@
   ?>
 
   <div class="routine">
-     <form action="" >
+     
     <table>
     <tr> 
     <td>     </td>
@@ -31,7 +31,7 @@
 
     <tr> 
     <td>Sunday</td>
-    <td>  <?php $sql= "SELECT course FROM routine 
+    <td>  <?php $sql= "SELECT course,faculty,room FROM routine 
       where day like 'Sunday' AND
       time like '8:30' AND
       (course like '$cc1' OR 
@@ -48,7 +48,9 @@
             {
               $rows= mysqli_fetch_assoc($res);
               $courseid= $rows['course'];
-              echo $courseid;   
+              $faculty= $rows['faculty'];
+              $room= $rows['room'];
+              echo $courseid.'('.$room.')';   
             } 
             ?>     
             </td>
@@ -98,7 +100,7 @@
             </td>
 
 
-    <td>    <?php $sql= "SELECT course FROM routine 
+    <td>    <?php $sql= "SELECT course,faculty,room FROM routine 
       where day like 'Sunday' AND
       time like '11:30' AND
       (course like '$cc1' OR 
@@ -115,7 +117,9 @@
             {
               $rows= mysqli_fetch_assoc($res);
               $courseid= $rows['course'];
-              echo $courseid;   
+              $faculty= $rows['faculty'];
+              $room= $rows['room'];
+              echo $courseid.'('.$room.')';   
             } 
             ?>
             </td>
@@ -859,8 +863,8 @@
    
     
 </table>
-</form>
-
+      
+     
      </div>
 
    <?php include('../connections/footer.php'); ?>

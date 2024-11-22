@@ -5,10 +5,10 @@
         </div>
         
         <div class="info">
-            <a href="../index.html">Home</a>
-            <a href="faculty_member.html">Faculty Members</a>
-            <a href="../pages/cgpa_calculator.php">CGPA Calculator</a>
             <a href="../pages/routine.php">Class Routine</a>
+            <a href="../pages/cgpa_calculator.php">CGPA Calculator</a>
+            <a href="faculty_member.html">Faculty Members</a>
+            <a href="../index.html">Home</a>
         </div>
     </div> 
 </html>
