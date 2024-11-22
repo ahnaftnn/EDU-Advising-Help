@@ -8,6 +8,8 @@
         margin-right:auto;
         text-align:center;
         margin-top: 10%;
+        padding-left: 10px;
+        padding-right: 10px;
       }
     </style>
 
@@ -35,7 +37,7 @@
     <th>10:00 AM </th>
     <th>11:30 AM </th>
     <th>1:30 AM </th>
-    <th>3:30 AM </th>
+    <th>3:00 AM </th>
     <th>4:30 AM </th>
     </tr>
 
@@ -865,17 +867,36 @@
             } 
             ?>
     </td>
-    </tr>
-
-    
-    
- 
-   
-    
+    </tr>   
 </table>
       
      
      </div>
+  <div class="faculty">
+  <?php $sql= "SELECT DISTINCT course,faculty FROM routine 
+      where (course like '$cc1' OR 
+       course like '$cc2' OR 
+       course like '$cc3' OR
+       course like '$cc4' OR
+       course like '$cc5' OR
+       course like '$cc6' OR
+       course like '$cc7')
+            ";
+            include('../connections/mysql_connect.php'); 
+            $count=mysqli_num_rows($res);
+            if($count>0)
+            {
+              for($i=0; $i<$count; $i++)
+            {
+              $rows= mysqli_fetch_assoc($res);
+              $courseid= $rows['course'];
+              $faculty= $rows['faculty'];
+              echo $courseid." : ".$faculty."<br>";
+            }   
+            } 
+            ?> 
+     
+  </div>
 
    <?php include('../connections/footer.php'); ?>
 

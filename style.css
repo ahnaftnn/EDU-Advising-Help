@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+    padding: 0;
+}
 .header {
     background-color: #6A0032;
     overflow: hidden;
@@ -9,8 +13,8 @@
   background-image: url(image/campus.png);
   background-repeat: no-repeat;
   background-size: cover;
-}
   
+}
   
   .header a {
     float: right;
