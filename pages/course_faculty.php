@@ -1,6 +1,7 @@
 <html>
    <head>
-    <title>Login Page</title>
+    <title>Faculty data</title>
+    <link rel="stylesheet" href="../style.css"/>
    </head>
    <body>
    <?php include('../connections/header.php'); ?>
@@ -33,8 +34,8 @@
             Faculty='$name'
             ";
             include('../connections/mysql_connect.php'); 
-            header("Location: http://localhost:8080/EDU Advising Help/pages/admin_home.php"); 
-            header("Location: http://localhost:8080/EDU Advising Help/pages/course_faculty.php");
+            header("Location: admin_home.php"); 
+            header("Location: course_faculty.php");
         }
         ?>
 </table>

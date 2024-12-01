@@ -1,6 +1,7 @@
 <html>
    <head>
     <title>Login Page</title>
+    <link rel="stylesheet" href="../style.css"/>
    </head>
    <body>
    <?php include('../connections/header.php'); ?>
@@ -13,10 +14,10 @@
     </form>
      <?php
        if(isset($_POST['submit']) && $_POST['username']=="admin" && $_POST['password']=="admin" ) {
-        header("Location: http://localhost:8080/EDU Advising Help/pages/admin_home.php");
+        header('Location: admin_home.php');
        }
      ?>
-
+     <?php include('../connections/footer.php'); ?>
    </body>
 
 </html>
