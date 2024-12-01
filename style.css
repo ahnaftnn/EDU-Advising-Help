@@ -10,12 +10,35 @@
   }
 
 .main{
+  height: 450px;
+ margin-bottom: 30px;
+  text-align: center;
+  padding-top: 55px;
   background-image: url(image/campus.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+ 
+  
+  
+
   
 }
+.EDUinfo
+{
+  color: #ddd;
+  font-size: x-large;
+ 
   
+  
+}
+.abc
+{
+  font-size: 30px;
+  font-weight: bolder;
+}
+ 
   .header a {
     float: right;
     color: #f2f2f2;
@@ -40,8 +63,15 @@
     float: left;
   }
   .footer{
-    margin-top: 50%;
+    
     display: flex;
     justify-content: center;
   }
-
+  .ghi
+  {
+    text-align: center;
+  }
+  .def h1{
+   color: #6A0032;
+  }
+  
