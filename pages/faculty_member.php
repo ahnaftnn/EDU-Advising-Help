@@ -1,11 +1,11 @@
 <html>
 <head>
-
+<link rel="stylesheet" href="../style.css"/>
 
 </head>
 <body>
 <?php include('../connections/header.php'); ?>
-<div class="Main">
+<div class="body">
     <div class="Title">
 <h1>
     FACULTY MEMBERS
