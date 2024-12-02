@@ -30,8 +30,8 @@
             $course = $_POST['course'];
               
             $sql= "INSERT INTO course_faculty SET 
-            Course = '$course',
-            Faculty='$name'
+            course = '$course',
+            faculty_name='$name'
             ";
             include('../connections/mysql_connect.php'); 
             header("Location: admin_home.php"); 

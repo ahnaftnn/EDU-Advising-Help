@@ -1,3 +1,7 @@
+<?php 
+  include('login_check.php');
+?>
+
 <html>
     <head>
     <link rel="stylesheet" href="../style.css"/>
@@ -12,7 +16,6 @@
     </div>
 
     <?php
-        session_start();
         if(isset($_SESSION['login']))
         {
           echo $_SESSION['login'];

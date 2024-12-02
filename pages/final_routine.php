@@ -873,14 +873,15 @@
      
      </div>
   <div class="faculty">
-  <?php $sql= "SELECT DISTINCT course,faculty FROM routine 
-      where (course like '$cc1' OR 
+  <?php $sql= "SELECT course,faculty_name FROM course_faculty
+WHERE course IN (SELECT course from routine 
+                  WHERE (course like '$cc1' OR 
        course like '$cc2' OR 
        course like '$cc3' OR
        course like '$cc4' OR
-       course like '$cc5' OR
+       course like '$cc5' OR  
        course like '$cc6' OR
-       course like '$cc7')
+       course like '$cc7' )); 
             ";
             include('../connections/mysql_connect.php'); 
             $count=mysqli_num_rows($res);
@@ -890,7 +891,7 @@
             {
               $rows= mysqli_fetch_assoc($res);
               $courseid= $rows['course'];
-              $faculty= $rows['faculty'];
+              $faculty= $rows['faculty_name'];
               echo $courseid." : ".$faculty."<br>";
             }   
             } 
