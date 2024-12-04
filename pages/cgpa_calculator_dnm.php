@@ -19,7 +19,19 @@
                 <td>Course Code</td>
                 <td><input type="text" name="cc[]" class="form-control"></td>
                 <td>Grade</td>
-                <td><input type="number" name="g[]" class="form-control" step="any" ></td>
+                <td><select id="g[]" name="g[]">
+                      <option value="4.0">4.00 (A)</option>
+                      <option value="3.7">3.70 (A-)</option>
+                      <option value="3.3">3.30 (B+)</option>
+                      <option value="3.0">3.00 (B)</option>
+                      <option value="2.7">2.70 (B-)</option>
+                      <option value="2.3">2.30 (C+)</option>
+                      <option value="2.0">2.00 (C)</option>
+                      <option value="1.7">1.70 (C-)</option>
+                      <option value="1.3">1.30 (D+)</option>
+                      <option value="1.0">1.00 (D)</option>
+                      <option value="0.0">0.00 (F)</option>
+                    </select></td>
                 <td>Credits</td>
                 <td><input type="number" name="credits[]" class="form-control" step="any" ></td>
                 <td><button class="add_course_btn">Add more</button></td>
@@ -78,7 +90,19 @@
                         <td>Course Code</td>
                         <td><input type="text" name="cc[]" class="form-control"></td>
                         <td>Grade</td>
-                        <td><input type="number" name="g[]" class="form-control" step="any" ></td>
+                        <td><select id="g[]" name="g[]">
+                      <option value="4.0">4.00 (A)</option>
+                      <option value="3.7">3.70 (A-)</option>
+                      <option value="3.3">3.30 (B+)</option>
+                      <option value="3.0">3.00 (B)</option>
+                      <option value="2.7">2.70 (B-)</option>
+                      <option value="2.3">2.30 (C+)</option>
+                      <option value="2.0">2.00 (C)</option>
+                      <option value="1.7">1.70 (C-)</option>
+                      <option value="1.3">1.30 (D+)</option>
+                      <option value="1.0">1.00 (D)</option>
+                      <option value="0.0">0.00 (F)</option>
+                    </select></td>
                         <td>Credits</td>
                         <td><input type="number" name="credits[]" class="form-control" step="any" ></td>
                         

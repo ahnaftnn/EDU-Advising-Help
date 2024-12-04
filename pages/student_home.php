@@ -35,13 +35,13 @@
               $rows= mysqli_fetch_assoc($res);
               $temp=$rows['course'];
               array_push($course,"$temp");
-              echo $course[$i]."<br>";
             }   
-            } 
-
-             
-            
+            }  
+            $_SESSION['course']=$course;    
+            $_SESSION['count']= $count;          
         ?>
+
+        <a href="student_routine.php">Routine</a>
     </div>
     
 
