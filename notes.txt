@@ -1,0 +1,32 @@
+git pull korle toder pc te saved file er shathe merge or overwrite korte chay jetar karone majhemoddhe toder pc te saved ager ver. e push hoye jaite pare toder push theke..
+
+
+ejonnno git pull ekbar korar por
+
+git stash
+git stash drop
+git pull 
+
+marte hobe..
+
+stepwise bolle toder vs code on kore 1st kaaj terminal on kore
+
+git pull
+git stash
+git stash drop
+git pull
+
+
+then toder kaaj gula kore toder moto
+
+git add .
+git commit -am "ja update korsos"
+git push origin main
+
+done..  ami amar database o diye rakhtesi.. xampp theke phpmyadmin e dhuke ager database ta thakle delete kore
+ar na thakle ekta "edu_advising_help" naame database khule otar vitore dhuke import e giye oi file ta import korlei
+database dhuke jabe..
+
+
+localhost:8080/EDU-Advising-Help   ;home page
+localhost:8080/phpmyadmin/   ; phpmyadmin
