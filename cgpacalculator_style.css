@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+      padding: 0;
+  }
+  .upper_body{
+   text-align: center;
+   
+   
+
+
+
+  }
+  .main_body{
+    margin-top: 150px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+margin-left:10px;
+
+
+  }
+  .footer{
+    color:#f2f2f2;
+  background: #6A0032; 
+margin-top:400px;
+justify-content: center;
+height:100%;
+padding:4% 0;
+width:100%;
+
+
+
+
+
+  }
+  .footer h1{
+  
+   height: 40px;
+  
+    
+  }
+ .footer p{
+ margin-left:-350px;
+
+ }

@@ -1,7 +1,7 @@
 <html>
    <head>
     <title>Login Page</title>
-    <link rel="stylesheet" href="../style.css"/>
+    <link rel="stylesheet" href="../cgpacalculator_style.css"/>
    </head>
    <body>
    <?php include('../connections/header.php'); ?>
@@ -73,11 +73,14 @@
             ?>
 
         </div>
+        
 
         <?php include('../connections/footer.php'); ?>
 
-    
+        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </div>
+        
 
 <script>
     $(document).ready(function () {

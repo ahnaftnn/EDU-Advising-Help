@@ -7,7 +7,7 @@
    <?php include('../connections/header.php'); ?>
     <div class="bodyy">
         <div class="upper_body">
-            <h1>CGPA Calculator</h1>
+            <h1>CGPA Calculator<h1>
             <h3>Calculate your CGPA</h3>
             <h3>Know your academic progress</h3>
         </div>
@@ -104,7 +104,7 @@
                 </tr><br> 
 
 
-                <tr>
+                <tr style="color:red;">
                 <td><input type="submit" name="submit" value="Submit"></td>
                 </tr>
             </form>
