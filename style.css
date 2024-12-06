@@ -45,7 +45,8 @@
   .footer{
     
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    
   }
   .ghi
   {
@@ -74,4 +75,6 @@ body, html {
   width: 100%;
   overflow-x: hidden;
 }
+
+
   
