@@ -10,16 +10,10 @@
 
 
   }
-  .main_body{
-    margin-top: 150px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-margin-left:10px;
-
-
-  }
+  
   .footer{
-    color:#f2f2f2;
-  background: #6A0032; 
+    
+  background: white; 
 margin-top:400px;
 justify-content: center;
 
@@ -30,14 +24,42 @@ width:100%;
 
 
 
+
   }
   .footer h1{
+  color:#6A0032;
   
    height: 40px;
   
     
   }
  .footer p{
+
+  color:black;
  margin-left:-350px;
 
  }
+ .bodyy{
+background:#6A0032;
+
+ }
+.upper_body{
+
+  color:white;
+  background:#6A0032;
+  text-align:left;
+ 
+ 
+  
+}
+.main_body{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+background:white;
+width: 700px;
+
+
+
+
+
+}
