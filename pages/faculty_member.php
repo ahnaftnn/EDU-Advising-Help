@@ -12,20 +12,34 @@
 </h1>
 
     </div>
+
     <div class= "Faculty Info">
-      <img src="../image/campus.png" alt="" height="30px">
+      <img src="../image/Ishtiaquesir.jpg" alt="" height="300px">
       <strong>
-        Name
+      DR. ISHITAQUE AZIZ ZAHED
       </strong>
       <h2>
-        position
+      Associate Professor & Associate Dean
       </h2>
       <h3>
         short brief
       </h3>  
 
     </div>
+    
+    <div class= "Faculty Info">
+      <img src="../image/Ishtiaquesir.jpg" alt="" height="300px">
+      <strong>
+      DR. ISHITAQUE AZIZ ZAHED
+      </strong>
+      <h2>
+      Associate Professor & Associate Dean
+      </h2>
+      <h3>
+        short brief
+      </h3>  
 
+    </div>
 </div>    
 
 </body>
