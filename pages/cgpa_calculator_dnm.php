@@ -16,8 +16,8 @@
                 <div id="courses">
                 <div class="row">
                 <tr>
-                <td>Course Code</td>
-                <td><input type="text" name="cc[]" class="form-control"></td>
+                
+                <td><input type="text" name="cc[]" placeholder="Course Code" class="form-control"> </td>
                 <td>Grade</td>
                 <td><select id="g[]" name="g[]">
                       <option value="4.0">4.00 (A)</option>
@@ -75,7 +75,6 @@
         </div>
         
 
-        <?php include('../connections/footer.php'); ?>
 
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -119,6 +118,7 @@
 
 
 
+<?php include('../connections/footer.php'); ?>
    </body>
 
 </html>

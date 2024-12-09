@@ -14,28 +14,28 @@
             <h1 style="color: white;">Course Code</h1><br>
             <div class='background'>
                 <div class='box'>
-                <input type="text" name="cc1" class='wbox'><br>
+                <input type="text" name="cc1" placeholder="Enter Course Code" id='wbox_1' class='wbox'><br>
                 </div>
                 <div class='box'>
-                <input type="text" name="cc2" class='wbox'><br>
+                <input type="text" name="cc2" placeholder="Enter Course Code" class='wbox'><br>
                 </div>
                 <div class='box'>
-                <input type="text" name="cc3" class='wbox'><br>
+                <input type="text" name="cc3" placeholder="Enter Course Code" class='wbox'><br>
                 </div>
                 <div class='box'>
-                <input type="text" name="cc4" class='wbox'><br>
+                <input type="text" name="cc4" placeholder="Enter Course Code" class='wbox'><br>
                 </div>
                 <div class='box'>
-                <input type="text" name="cc5" class='wbox'><br>
+                <input type="text" name="cc5" placeholder="Enter Course Code" class='wbox'><br>
                 </div>
                 <div class='box'>
-                <input type="text" name="cc6" class='wbox'><br>
+                <input type="text" name="cc6" placeholder="Enter Course Code" class='wbox'><br>
                 </div>
                 <div class='box'>
-                    <input type="text" name="cc7" class='wbox'><br>
+                    <input type="text" name="cc7" placeholder="Enter Course Code" class='wbox'><br>
                 </div>
                 <div class='box'>
-                <input type="submit" name="submit">
+                <input type="submit" name="submit" value="Submit" class='end '>
                 </div>
             
            

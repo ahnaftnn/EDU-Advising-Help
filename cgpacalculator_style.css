@@ -10,35 +10,9 @@
 
 
   }
-  
-  .footer{
-    
-  background: white; 
-margin-top:400px;
-justify-content: center;
-
-padding:4% 0;
-width:100%;
-
-
-
-
-
-
-  }
-  .footer h1{
-  color:#6A0032;
-  
-   height: 40px;
-  
-    
-  }
- .footer p{
-
-  color:black;
- margin-left:-350px;
-
- }
+  ::-webkit-input-placeholder{
+    color:red;}
+ 
  .bodyy{
 background:#6A0032;
 
