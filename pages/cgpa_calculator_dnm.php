@@ -54,19 +54,35 @@
                 $n=count($_POST['g']);
                 $g_sum=0;
                 $cr_total=0;
+                $fail_flag=0;
                 for ($i = 0; $i < $n; $i++) {
-                    $grade = (float) $_POST['g'][$i]; 
+                    $grade = (float) $_POST['g'][$i];
+                    
+                    if($grade==0.00)
+                    {
+                        $fail_flag=1;
+                        break;
+                    }
+
                     $credits = (float) $_POST['credits'][$i]; 
 
                     $g_sum += $grade * $credits; 
                     $cr_total += $credits;
                 }
                 
+                if($fail_flag==0)
+                {
                 if ($cr_total > 0) {
                     echo "Total CGPA: " . round(($g_sum / $cr_total), 2);
                 } else {
                     echo "Total CGPA: 0.00";
                 }
+                }  else
+                {
+                    echo "Total CGPA: 0.00";
+                }
+
+
                 }
             
             
