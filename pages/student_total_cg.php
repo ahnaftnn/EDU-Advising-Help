@@ -27,7 +27,7 @@
               $temp_cg=$rows['cgpa'];
               array_push($cg,"$temp_cg");
               
-              //echo $c_course.' '.$cg.' ';
+              echo $c_course[$i].' '.$cg[$i].' <br>';
                 }   
 
                 for($i=0; $i<$count; $i++)

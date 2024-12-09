@@ -60,7 +60,14 @@
           header("Location: student_home.php");
         } else if($count==1 && $role=='Instructor')
         {
-
+          $_SESSION['login']= "<div class='success'>Login Succesful</div>";
+          $_SESSION['user']= $username;
+          header("Location: instructor_home.php");
+        }else if($count==1 && $role=='Administrator')
+        {
+          $_SESSION['login']= "<div class='success'>Login Succesful</div>";
+          $_SESSION['user']= $username;
+          header("Location: administrator_home.php");
         }else
         {
           $_SESSION['login']= "<div class='error text-center'>Invalid Username or Password</div>";
