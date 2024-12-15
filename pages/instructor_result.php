@@ -68,15 +68,17 @@
 
                      if($count>0)
                      {
+
+                      $sql="DELETE FROM student_rcourse WHERE sid like '$sid' AND course like '$course_code'";
+                        include('../connections/mysql_connect.php');
+
+                          $course_code=substr($course_code,0,7);
                           $sql= "INSERT INTO student_ccourse SET 
                            sid = '$sid',
                            course='$course_code',
                            cgpa='$grade'
                             ";
 
-                        include('../connections/mysql_connect.php');
-
-                        $sql="DELETE FROM student_rcourse WHERE sid like '$sid' AND course like '$course_code'";
                         include('../connections/mysql_connect.php');
                     
                       header("Location: instructor_home.php");
@@ -91,6 +93,7 @@
                      }
                }
             
+
             
             ?>
 
