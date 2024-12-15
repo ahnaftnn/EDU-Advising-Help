@@ -43,6 +43,7 @@
 
         <a href="student_routine.php">Routine</a>
         <a href="student_total_cg.php">Reports</a>
+        <a href="student_finance.php">Payment & Invoice </a>
     </div>
     
 

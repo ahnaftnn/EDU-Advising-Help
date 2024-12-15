@@ -16,10 +16,10 @@
                 <div id="courses">
                 <div class="row">
                 <tr>
-                <td>Course Code</td>
-                <td><input type="text" name="cc[]" class="form-control"></td>
-                <td>Grade</td>
-                <td><select id="g[]" name="g[]">
+                
+                <td><input type="text" name="cc[]" placeholder="Course Code" class="form-control"> </td>
+                
+                <td><select id="g[]" name="g[]"class="form-control">
                       <option value="4.0">4.00 (A)</option>
                       <option value="3.7">3.70 (A-)</option>
                       <option value="3.3">3.30 (B+)</option>
@@ -32,8 +32,8 @@
                       <option value="1.0">1.00 (D)</option>
                       <option value="0.0">0.00 (F)</option>
                     </select></td>
-                <td>Credits</td>
-                <td><input type="number" name="credits[]" class="form-control" step="any" ></td>
+                
+                <td><input type="number" name="credits[]" placeholder="Credit" class="form-control" step="any" ></td>
                 <td><button class="add_course_btn">Add more</button></td>
             
                  </tr>
@@ -54,19 +54,35 @@
                 $n=count($_POST['g']);
                 $g_sum=0;
                 $cr_total=0;
+                $fail_flag=0;
                 for ($i = 0; $i < $n; $i++) {
-                    $grade = (float) $_POST['g'][$i]; 
+                    $grade = (float) $_POST['g'][$i];
+                    
+                    if($grade==0.00)
+                    {
+                        $fail_flag=1;
+                        break;
+                    }
+
                     $credits = (float) $_POST['credits'][$i]; 
 
                     $g_sum += $grade * $credits; 
                     $cr_total += $credits;
                 }
                 
+                if($fail_flag==0)
+                {
                 if ($cr_total > 0) {
                     echo "Total CGPA: " . round(($g_sum / $cr_total), 2);
                 } else {
                     echo "Total CGPA: 0.00";
                 }
+                }  else
+                {
+                    echo "Total CGPA: 0.00";
+                }
+
+
                 }
             
             
@@ -75,7 +91,6 @@
         </div>
         
 
-        <?php include('../connections/footer.php'); ?>
 
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -90,10 +105,10 @@
             $("#courses").prepend(`
                 <div class="row">
                     <tr>
-                        <td>Course Code</td>
-                        <td><input type="text" name="cc[]" class="form-control"></td>
-                        <td>Grade</td>
-                        <td><select id="g[]" name="g[]">
+                       
+                        <td><input type="text" name="cc[]"placeholder="Course Code"  class="form-control"></td>
+                       
+                        <td><select id="g[]" name="g[]"  class="form-control">
                       <option value="4.0">4.00 (A)</option>
                       <option value="3.7">3.70 (A-)</option>
                       <option value="3.3">3.30 (B+)</option>
@@ -106,8 +121,8 @@
                       <option value="1.0">1.00 (D)</option>
                       <option value="0.0">0.00 (F)</option>
                     </select></td>
-                        <td>Credits</td>
-                        <td><input type="number" name="credits[]" class="form-control" step="any" ></td>
+                      
+                        <td><input type="number" name="credits[]"  placeholder="Credit" class="form-control" step="any" ></td>
                         
                     </tr>
                 </div>
@@ -119,6 +134,7 @@
 
 
 
+<?php include('../connections/footer.php'); ?>
    </body>
 
 </html>
