@@ -53,21 +53,19 @@ padding-left: 1%;
 
 
 }
-.footer{
 
-  padding-left: 10%;
-}
 .footer h1{
   padding-top:1.2%;
 background-color: white;
 color:#6A0032;
 height: 35px;
+
  
 }
 .footer p{
-padding-top:1.5%;
+
   color:black;
- margin-left:-380px;
+ 
 
  }.main_body_input {
   display: table; 
@@ -88,5 +86,21 @@ padding-top:1.5%;
   font-size: 15px;
   font-weight: bold;
   border-radius: 45px;
+}input[type="submit"] {
+  background:  #6A0032;
+  color: white;
+  border: none;
+  border-radius: 45px;
+  padding: 12px 25px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  width: auto;
 }
+
+
+
 
