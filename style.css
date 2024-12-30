@@ -130,7 +130,30 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
+/* Add this to your style.css */
 
- 
+.body {
+  display: flex; /* This enables the elements inside to align horizontally */
+  justify-content: space-between; /* This distributes space between the items */
+  gap: 20px; /* Optional, adds space between the two elements */
+  padding: 20px;
+}
+
+.FacultyInfo, .FacultyInfo2 {
+  flex: 1; /* This ensures that each div takes equal space */
+  text-align: center; /* Centers text within each box */
+  padding: 10px;
+}
+
+img {
+  width: 100%; /* Makes the images responsive, adjust as necessary */
+  max-width: 250px; /* You can adjust this to fit your desired image size */
+  height: auto; /* Maintains the aspect ratio of images */
+}
+
+h2, strong {
+  margin-top: 10px; /* Adds space above the name and title */
+}
+
 
   
