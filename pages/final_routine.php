@@ -152,9 +152,11 @@
             $count=mysqli_num_rows($res);
             if($count>0)
             {
+              for($i=0; $i<$count; $i++)
+              {
               $rows= mysqli_fetch_assoc($res);
               $courseid= $rows['course'];
-              echo $courseid;   
+              echo $courseid."<br>";}   
             } ?>     </td>
 
 
