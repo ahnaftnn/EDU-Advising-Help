@@ -1,7 +1,7 @@
 <html>
    <head>
     <title>Login Page</title>
-    <link rel="stylesheet" href="../style.css"/>
+    <link rel="stylesheet" href="../login.css"/>
    </head>
    <body>
    <?php include('../connections/header.php'); ?>
@@ -18,10 +18,10 @@
 
      <br><br>
     <form action="#" method="POST">
-        username
+       
         <input type="text" name="username" placeholder="enter your ID">
-        password
-        <input type="password" name="password">
+       
+        <input type="password" name="password"  placeholder="password">
         <select id="role" name="role">
           <option value="Student">Student</option>
           <option value="Instructor">Instructor</option>

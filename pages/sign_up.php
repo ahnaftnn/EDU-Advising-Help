@@ -1,14 +1,14 @@
 <html>
 <head>
-
+<link rel="stylesheet" href="signup.css"/>
 </head>
 <body>
 <?php include('../connections/header.php'); ?>
     <form action="#" method="POST">
-        username
+        
         <input type="text" name="username" placeholder="enter your ID" required>
-        password
-        <input type="password" name="password" required>
+        
+        <input type="password" name="password" placeholder="password"  required>
         <select id="role" name="role">
           <option value="Student">Student</option>
           <option value="Instructor">Instructor</option>

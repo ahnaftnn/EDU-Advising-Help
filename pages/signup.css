@@ -1,0 +1,53 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }input[type="text"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 45px;
+  
+  font-size: 16px;
+  background-color:#6A0032;
+}
+
+input[type="submit"] {
+  background-color: #6A0032;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 45px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 45px;
+  color:white;
+  
+  font-size: 16px;
+  background-color:#6A0032;
+}
+a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #6A0032;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer h1{
+  padding-top:1.2%;
+  background-color: white;
+  color:#6A0032;
+  height: 35px;
+  
+  
+  }
