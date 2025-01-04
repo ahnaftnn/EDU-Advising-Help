@@ -96,9 +96,21 @@
 a {
     display: inline-block;
     margin-top: 15px;
-    color: white;
+    color:  #6A0032;
     text-decoration: none;
     font-weight: bold;
   }
 
+.selector{
+
+  width: 220px;
+  text-align: center;
+  padding: 10px;
+  background-color: #6A0032;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 45px;
+  justify-content: center;
+}
         
