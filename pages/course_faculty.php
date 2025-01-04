@@ -16,7 +16,7 @@
 
     <tr>
        
-        <td><input type="text" name="name" placeholder="name" class="form-control" ></td>
+        <td><input type="text" name="name" placeholder="instructor" class="form-control" ></td>
     </tr>
     <tr>
     

@@ -69,7 +69,7 @@
         opacity: 0.5;
  }
  .form-control {
-    display: table-cell; 
+   
     width: auto;
     text-align: center;
     padding: 10px;
@@ -78,6 +78,7 @@
     font-size: 15px;
     font-weight: bold;
     border-radius: 45px;
+    justify-content: center;
     }
     .body{
        padding-top: 10%;
@@ -90,14 +91,50 @@
     }
 .footer{
 
-    padding-top: 15%;
+    padding-top: 10%;
 }
 a {
     display: inline-block;
     margin-top: 15px;
-    color: #6A0032;
+    color: white;
     text-decoration: none;
     font-weight: bold;
   }
+  .miso{
 
-        
+    background-color: #6A0032;
+    height:300px;
+    padding-left: 40px;
+    padding-top: 40px;
+  }
+  .form-control {
+   
+    width: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #6A0032;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 45px;
+    justify-content: center;
+    } .selector {
+   
+      width: 220px;
+      text-align: center;
+      padding: 10px;
+      background-color: #6A0032;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      border-radius: 45px;
+      justify-content: center;
+      }
+      .info tr{
+        text-align: center;
+      }
+      .info {
+      
+       
+        padding-top: 20px;
+    }

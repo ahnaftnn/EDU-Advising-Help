@@ -17,7 +17,7 @@
     <tr> 
   
     <td>
-  <select id="day" name="day"  placeholder="day" class="form-control">
+  <select id="day" name="day"  placeholder="day" class="selector">
   <option value="Saturday">Saturday</option>
   <option value="Sunday">Sunday</option>
   <option value="Monday">Monday</option>
@@ -31,7 +31,7 @@
     <tr> 
 
     <td>
-      <select id="time" name="time"  placeholder="time" class="form-control">
+      <select id="time" name="time"  placeholder="time" class="selector">
         <option value="8:30">8:30</option>
         <option value="9:30">9:30</option>
         <option value="10:00">10:00</option>

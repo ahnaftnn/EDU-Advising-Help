@@ -14,17 +14,18 @@
         </div>
 
     </div>
-
+        
     <?php
         if(isset($_SESSION['login']))
         {
           echo $_SESSION['login'];
           unset($_SESSION['login']);
         }
-     ?>
-
-    <a href="course_faculty.php">Faculty Information -></a><br>
-    <a href="routine_database.php">Routine -></a>
+     ?>  
+        <div class="miso">
+    <a href="course_faculty.php">Faculty Information </a><br>
+    <a href="routine_database.php">Routine </a>
+      </div>
 
     
     <?php include('../connections/footer.php'); ?>
