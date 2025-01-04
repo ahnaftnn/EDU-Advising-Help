@@ -34,7 +34,7 @@
                     </select></td>
                 
                 <td><input type="number" name="credits[]" placeholder="Credit" class="form-control" step="any" ></td>
-                <td><button class="add_course_btn">Add more</button></td>
+                <br><td><button class="add_course_btn">Add more</button></td>
             
                  </tr>
                  </div>
