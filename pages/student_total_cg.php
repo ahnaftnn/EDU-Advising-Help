@@ -1,9 +1,12 @@
 <html>
 <head>
-
+<link rel="stylesheet" href="cg.css"/>
 </head>
 <body>
-        <?php
+  
+<?php include('../connections/header.php'); ?>
+<div class='cgContainer'>
+<?php
             session_start();
             $username=$_SESSION['user'];
             $sql= "SELECT course,cgpa FROM 
@@ -52,6 +55,9 @@
                                        
         ?>
 
+</div>
+        
+ <?php include('../connections/footer.php'); ?>
 </body>
 
 

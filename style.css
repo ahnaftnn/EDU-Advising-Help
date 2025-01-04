@@ -130,29 +130,29 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
-/* Add this to your style.css */
+
 
 .body {
-  display: flex; /* This enables the elements inside to align horizontally */
-  justify-content: space-between; /* This distributes space between the items */
-  gap: 20px; /* Optional, adds space between the two elements */
+  display: flex; 
+  justify-content: space-between; 
+  gap: 20px; 
   padding: 20px;
 }
 
 .FacultyInfo, .FacultyInfo2 {
-  flex: 1; /* This ensures that each div takes equal space */
-  text-align: center; /* Centers text within each box */
+  flex: 1; 
+  text-align: center; 
   padding: 10px;
 }
 
 img {
-  width: 100%; /* Makes the images responsive, adjust as necessary */
-  max-width: 250px; /* You can adjust this to fit your desired image size */
-  height: auto; /* Maintains the aspect ratio of images */
+  width: 100%; 
+  max-width: 250px; 
+  height: auto;
 }
 
 h2, strong {
-  margin-top: 10px; /* Adds space above the name and title */
+  margin-top: 10px; 
 }
 input[type="submit"] {
   background:  #6A0032;
@@ -179,9 +179,24 @@ input[type="submit"] {
     
     
     }
-    
+    .running_course
+    {
+     display:grid;
+     grid-template-rows: 40px;
+      background-color: #6A0032;
+      height: 350px;
+      color: #ddd;
+    }
+    .running_course a{
+      color: #ddd;
+      font-weight: bolder;
+      font-size: larger;
+      
+    }
 
-  
+  .footer h1{
+    color: #6A0032;
+  }
 
 
   
