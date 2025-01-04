@@ -154,6 +154,34 @@ img {
 h2, strong {
   margin-top: 10px; /* Adds space above the name and title */
 }
+input[type="submit"] {
+  background:  #6A0032;
+  color: white;
+  border: none;
+  border-radius: 45px;
+  padding: 12px 25px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  width: auto;
+  margin-top: 20px; 
+  display: inline-block;
+  margin-left: 10px;
+  }
+  .body_input {
+    display: table; 
+    width: 100%;
+    background-color: #6A0032;
+    
+    
+    
+    }
+    
+
+  
 
 
   

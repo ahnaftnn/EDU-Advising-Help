@@ -3,7 +3,7 @@
 ?>
 <html>
     <head>
-    <link rel="stylesheet" href="../style.css"/>
+    <link rel="stylesheet" href="instructor.css"/>
     </head>
     <body>
     <?php include('../connections/header.php'); ?>
@@ -16,18 +16,18 @@
     <div class="body">
         <?php         
           $username=$_SESSION['user'];
-          echo $username;
+       
         ?>
         <form action="#" method="POST">
                 <div id="courses">
                 <div class="row">
                 <tr>
-                <td>Student ID</td>
+               
                 <td><input type="text" name="sid" placeholder="Student ID" class="form-control"> </td>
-                <td>Course Code</td>
+               
                 <td><input type="text" name="cc" placeholder="Course Code" class="form-control"> </td>
-                <td>Grade</td>
-                <td><select id="g" name="g">
+            
+                <td><select id="g" name="g" class="form-control">
                       <option value="4.0">4.00 (A)</option>
                       <option value="3.7">3.70 (A-)</option>
                       <option value="3.3">3.30 (B+)</option>
@@ -101,6 +101,8 @@
     </div>
     
 
-    </body>
+    
+    <?php include('../connections/footer.php'); ?>
+   </body>
 </html>
 

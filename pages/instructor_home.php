@@ -3,7 +3,7 @@
 ?>
 <html>
     <head>
-    <link rel="stylesheet" href="../style.css"/>
+    <link rel="stylesheet" href="instructor.css"/>
     </head>
     <body>
     <?php include('../connections/header.php'); ?>
@@ -22,7 +22,7 @@
         <a href="instructor_result.php">Student Result</a>
     </div>
     
-
+    <?php include('../connections/footer.php'); ?>
     </body>
 </html>
 

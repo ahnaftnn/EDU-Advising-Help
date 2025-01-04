@@ -1,7 +1,7 @@
 <html>
    <head>
     <title>Faculty data</title>
-    <link rel="stylesheet" href="../style.css"/>
+    <link rel="stylesheet" href="instructor.css"/>
    </head>
    <body>
    <?php include('../connections/header.php'); ?>
@@ -10,18 +10,18 @@
      <form action="" method="post" >
     <table>
     <tr> 
-    <td>Course Code</td>
-    <td><input type="text" name="course" ></td>
+    
+    <td><input type="text" name="course"  placeholder="Course " class="form-control" ></td>
     </tr>
 
     <tr>
-        <td>Faculty Name</td>
-        <td><input type="text" name="name" ></td>
+       
+        <td><input type="text" name="name" placeholder="name" class="form-control" ></td>
     </tr>
     <tr>
     
     <tr>
-    <td><input type="submit" name="submit" value="Submit"></td>
+    <td><input type="submit" name="submit" value="Submit" ></td>
     </tr>
      <?php   
         if(isset($_POST['submit']))

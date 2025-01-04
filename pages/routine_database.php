@@ -1,23 +1,7 @@
 <html>
     <head>
-    <link rel="stylesheet" href="../style.css"/>
-    <style>
-      input[type=submit]{
-        width: 50px;
-    height: 30px;
-    border: none;
-    outline: none;
-    background: #6A0032;
-    color: #fff;
-    font-size: 22px;
-    border-radius: 40px;
-    text-align: center;
-    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-      }
-    </style>
+    <link rel="stylesheet" href="instructor.css"/>
+   
     </head>
 
   <body>
@@ -26,14 +10,14 @@
      <form action="" method="post" >
     <table>
     <tr> 
-    <td>Course Code</td>
-    <td><input type="text" name="course" required></td>
+  
+    <td><input type="text" name="course" required  placeholder="Course " class="form-control"></td>
     </tr>
 
     <tr> 
-    <td>Day</td>
+  
     <td>
-  <select id="day" name="day">
+  <select id="day" name="day"  placeholder="day" class="form-control">
   <option value="Saturday">Saturday</option>
   <option value="Sunday">Sunday</option>
   <option value="Monday">Monday</option>
@@ -45,9 +29,9 @@
     </tr>
 
     <tr> 
-    <td>Time</td>
+
     <td>
-      <select id="time" name="time">
+      <select id="time" name="time"  placeholder="time" class="form-control">
         <option value="8:30">8:30</option>
         <option value="9:30">9:30</option>
         <option value="10:00">10:00</option>
@@ -60,13 +44,13 @@
     </tr>
 
     <tr> 
-    <td>Room</td>
-    <td><input type="text" name="room" required></td>
+   
+    <td><input type="text" name="room" required placeholder="room" class="form-control"></td>
     </tr>
 
     <tr>
-        <td>Faculty</td>
-        <td><input type="text" name="faculty" required></td>
+
+        <td><input type="text" name="faculty" required placeholder="Course Code" class="form-control" placeholder="faculty" class="form-control"></td>
     </tr>
     <tr>
     
